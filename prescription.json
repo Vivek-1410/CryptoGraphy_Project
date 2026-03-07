@@ -1,8 +1,9 @@
 {
-  "doctorID": "D1023",
-  "prescriptionID": "RX-e5aaaa1e-bf68-42e1-b6a7-1bb312b91029",
+  "doctorID": "D1230",
+  "prescriptionID": "RX-00aea845-7164-4021-87ee-238fc45cf259",
   "medicine": "Paracetamol",
   "dosage": "500mg",
-  "date": "2026-03-02",
-  "signature": "P8yKXuJmsn2e7/O3h+svEjNjlxPzL/RrrehdUWoH912k8zFqAH5tgou66eqDtWu2CdhCj3kY1Lb5R9jMeSKQON37Q/xOuUp+iUz0I+1W3JWit7MrzMKuPaa7b4n3E7Vmf1Oa88B6NDgzDtRu/ZL66KnbCwcmOio+4v2qcq1GuVytFDP6DOIOyXMOwqRqpD5LHnocRkaSq7iZHIBDWBzULipVXoDuHFmurvyO8Rwxt5Vq4LHBh/Icbk7HewIajEB6hWsstsLFBqPCe0on5CwwzSWq/i+pQAzA9CjNiE9vbZZJqfxHWp9RiSKggq2NAxHJpnZeXw56eE/La2g6PNMk/w=="
+  "date": "2026-03-07",
+  "validDays": 2,
+  "signature": "SlMLhy+65KfFzblhvPlT1KSkQBNI7XNkosFL6ghRNGG4Y/YgJfBZj5hfbTxs3nmTK+AuRgaakRJSUw3UDDT/U6rD3fkt88WPNY0cXD/fE5pYtb8FJ0U+islvTrnni6Q0r4uttTgsVvZ1/dtuEGJe5ZixMRt+V79/5qc9WLLgelYcbtP2GoiXgVGAJFBAYZm+G8kJvGDwlPhEmOpMGgyBJfwxkVh4UUVD9aQA5Ccyr7cs8beGOtPegk+oi+u4sSTuATjqPVCpYxU94LGgfhMz6Zt59wFqOltg9qsy9EGqlQKlV9dCWXd2UvNTwkrlPx1WHTlQCgq5MVqkcyjBIK2kqQ=="
 }

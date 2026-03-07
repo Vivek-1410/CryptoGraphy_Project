@@ -10,17 +10,15 @@ public class Prescription {
     private String medicineName;
     private String dosage;
     private String date;
+    private int validDays;
 
-    public Prescription(String doctorID, String medicineName, String dosage) {
+    public Prescription(String doctorID, String medicineName, String dosage, int validDays) {
         this.doctorID = doctorID;
         this.medicineName = medicineName;
         this.dosage = dosage;
-        this.prescriptionID = generatePrescriptionID();
+        this.validDays = validDays;
+        this.prescriptionID = "RX-" + UUID.randomUUID();
         this.date = LocalDate.now().toString();
-    }
-
-    private String generatePrescriptionID() {
-        return "RX-" + UUID.randomUUID().toString();
     }
 
     public String getDoctorID() {
@@ -43,12 +41,16 @@ public class Prescription {
         return date;
     }
 
-    // Convert Prescription into canonical string for signing
+    public int getValidDays() {
+        return validDays;
+    }
+
     public String toSignableString() {
         return "DoctorID:" + doctorID +
                 "|PrescriptionID:" + prescriptionID +
                 "|Medicine:" + medicineName +
                 "|Dosage:" + dosage +
-                "|Date:" + date;
+                "|Date:" + date +
+                "|ValidDays:" + validDays;
     }
 }
